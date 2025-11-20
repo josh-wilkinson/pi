@@ -9,21 +9,22 @@ cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
+
 # Restore auto exposure mode
-cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)   # 0.75 = Auto mode on V4L2
+#cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)   # 0.75 = Auto mode on V4L2
 
 # Lower brightness if the image is washed out
-cap.set(cv2.CAP_PROP_BRIGHTNESS, 0.3)
+#cap.set(cv2.CAP_PROP_BRIGHTNESS, 0.3)
 
 # Reduce gain (auto-gain is usually the problem)
-cap.set(cv2.CAP_PROP_GAIN, 0)               # Try 0–10
+#cap.set(cv2.CAP_PROP_GAIN, 0)               # Try 0–10
 
 # Optional: stabilize colors
-cap.set(cv2.CAP_PROP_AUTO_WB, 1)            # enable auto white balance
+#cap.set(cv2.CAP_PROP_AUTO_WB, 1)            # enable auto white balance
 
 
 # ArUco setup
-aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_ARUCO_ORIGINAL)
 aruco_params = cv2.aruco.DetectorParameters()
 detector = cv2.aruco.ArucoDetector(aruco_dict, aruco_params)
 
