@@ -1,0 +1,13 @@
+{
+  "version": "",
+  "users": [
+    {
+      "name": "l.teich01",
+      "email": "l.teich01@stud.uni-goettingen.de",
+      "alias": "Leander",
+      "gpg_key_id": "",
+      "added_at": "2025-10-30T15:14:09.267092729+01:00",
+      "modified_at": "0001-01-01T00:00:00Z"
+    }
+  ]
+}

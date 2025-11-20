@@ -1,0 +1,17 @@
+camera_matrix:
+  rows: 3
+  cols: 3
+  dt:   d
+  data: [ 763.545, 0.0,    311.057,
+          0.0,    763.17,  194.975,
+          0.0,    0.0,     1.0      ]
+
+distortion_coefficients:
+  rows: 5
+  cols: 1
+  dt:   d
+  data: [ -0.42364,
+            1.01204,
+            -0.0032,
+            -0.00052,
+            -3.56578 ]

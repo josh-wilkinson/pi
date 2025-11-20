@@ -1,0 +1,71 @@
+Xsession: X session started for pi at Tue  9 Sep 10:38:43 CEST 2025
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+xrdb: Can't open display ''
+xhost:  unable to open display ""
+
+$SSH is enabled and the default password for the 'pi' user has not been changed.
+$This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+dbus-update-activation-environment: setting USER=pi
+dbus-update-activation-environment: setting TEXTDOMAIN=pam_chksshpwd
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=wayland
+dbus-update-activation-environment: setting HOME=/home/pi
+dbus-update-activation-environment: setting DESKTOP_SESSION=rpd-labwc
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=pi
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LANG=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=rpd-labwc
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/pi
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=rpd-labwc
+dbus-update-activation-environment: setting NO_AT_BRIDGE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/pi
+00:00:02.446 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+00:00:02.446 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+no profile matched
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Failure: No such entity
+userdel: rpi-first-boot-wizard mail spool (/var/mail/rpi-first-boot-wizard) not found
+
+(polkit-mate-authentication-agent-1:1391): GLib-CRITICAL **: 10:38:48.768: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-mate-authentication-agent-1:1391): polkit-mate-1-WARNING **: 10:38:48.769: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.005: GFileInfo created without standard::edit-name
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.005: file ../../../gio/gfileinfo.c: line 1757 (g_file_info_get_edit_name): should not be reached
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.005: GFileInfo created without standard::size
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.005: file ../../../gio/gfileinfo.c: line 1860 (g_file_info_get_size): should not be reached
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.005: GFileInfo created without standard::is-symlink
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.005: file ../../../gio/gfileinfo.c: line 1691 (g_file_info_get_is_symlink): should not be reached
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.006: GFileInfo created without standard::is-hidden
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.006: file ../../../gio/gfileinfo.c: line 1647 (g_file_info_get_is_hidden): should not be reached
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.006: GFileInfo created without standard::is-backup
+
+(pcmanfm:1415): GLib-GIO-CRITICAL **: 10:38:50.006: file ../../../gio/gfileinfo.c: line 1669 (g_file_info_get_is_backup): should not be reached
+00:00:06.235 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+00:00:06.407 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 10:38:50.655: batt: battery 0 not found
+** Message: 10:38:51.027: up: No network connection - polling...
+** Message: 10:39:51.758: up: No network connection - polling...
+** Message: 13:54:52.927: up: Checking for updates
+** Message: 13:54:56.796: up: Cache updated - comparing versions
+** Message: 13:55:04.057: up: Check complete - 89 updates available
